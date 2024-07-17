@@ -6,7 +6,7 @@
 
 header{
     display: flex;
-    background-color: #161226;
+    background-color: #1E172F;
 }
 
 .logo{
@@ -198,7 +198,7 @@ header{
     align-items: center;
 }
 
-span{
+.span1{
     font-size: 40px;
 }
 
@@ -208,11 +208,13 @@ span{
 
 .info_pricing{
     padding: 40px;
+    padding-bottom: 10px;
 }
 
 .btn_pricing{
     background-color: aliceblue;
     height: 69px;
+    border-radius: 10px;
 }
 
 .btn_p{
@@ -237,9 +239,227 @@ span{
     font-size: 15px;
 }
 /* FOOTER */
+
+span{
+    color:rgba(235,96,168,1) ;
+}
+
 footer{
+    padding-top: 20px;
+    padding-left: 220px;
+    display:flex;
+    
+}
+
+.redes{
+    background-color: #ffffff;
+    border: none;
+    width: 45px;
+    height: 45px;
 
 }
 
+.redes1{
+    height: 20px;
+}
+
+.marcas{
+    padding-left: 380px;
+}
+
+@media screen and (max-width: 1279px){
+
+/*HEADER*/
+.logo{
+    padding-right: 500px;
+}
+
+/*FOOTER*/
+footer{
+    padding-left: 140px;
+}
+
+}
+
+@media screen and (max-width: 920px){
+    /*HEADER*/
+.logo{
+    padding-right: 150px;
+}
+
+/*SECTION1*/
+.title-product{
+    margin-left: 50px;
+
+}
+
+.text-product{
+    margin-left: 60px;
+    margin-right: 50px;
+}
+
+.btn-product{
+    margin-left: 70px;
+}
+
+.phone{
+    padding-left: 20%;
+}
+
+.hojas{
+    height: 550px;
+    background-size: 150%;
+    
+}
+
+/*SECTION2*/
+.laptop{
+    padding-top: 50px;
+    padding-left: 10%;
+    width: 400px;
+    padding-bottom: 90px;
+}
+
+.info_article{
+    padding-left: 150px ;
+    padding-right: 120px;
+}
+
+/*SECTION3*/
+
+.text_pricing{
+    padding-left: 100px;
+    padding-right: 100px;
+
+}
+
+.cards{
+    padding-bottom: 50px;
+    gap: 5px;
+}
+
+/*FOOTER*/
+footer{
+    padding-left: 30px;
+}
+
+.marcas{
+    padding-left: 180px;
+}
+
+}
+
+@media screen and (max-width: 768px){
+    /*HEADER*/
+    .logo{
+        margin-left: 50px;
+        padding-right: 100px;
+    }
+    /*SECTION1*/
+
+    .title-product{
+        font-size: 60px;
+    }
+
+    .btn-product{
+        margin-left: 40px;
+    }
+
+    /*SECTION2*/
+
+    .info_article{
+        padding-left: 50px ;
+        padding-right: 50px;
+    }
+
+    footer{
+        padding-left: 10px;
+    }
+    
+    .marcas{
+        padding-left: 100px;
+    }
+
+}
+
+@media screen and (max-width: 480px){
+    /*HEADER*/
+    .logo{
+        width: 100px;
+        padding-top: 10px;
+        padding-right: 18px;
+    }
+
+    .btn-1{
+        font-size: 13px;
+        padding-right: 13px;
+    }
+
+    .btn-2{
+        font-size: 13px;
+        height: 35px;
+        width: 80px;
+    }
+
+    /*SECTION1*/
+    .title-product{
+        font-size: 40px;
+        margin-left: 50px;
+        padding-top: 50px;
+    }
+
+    .text-product{
+        margin-left: 55px;
+    }
+
+    .btn-product{
+        width: 150px;
+        height: 82px;
+    }
+
+    .btn-download{
+        margin-right: 0px;
+        margin-bottom: 10px;
+    }
+
+    .phone{
+        width: 150px;
+    }
+
+    .hojas{
+        height: 450px;
+        background-size: 300%;
+        
+    }
+
+    /*SECTION2*/
+
+    .info1{
+        flex-direction: column;
+    }
+
+    .subtitle_article{
+        text-align: center;
+    }
+
+    /*SECTION3*/
+
+    .info_article{
+        padding-bottom: 20px;
+    }
+    .subsubtitle_article{
+        font-size: 25px;
+    }
+    .cards{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /*FOOTER*/
 
 
+    .marcas{
+        padding-left: 30px;
+    }
+
+}
